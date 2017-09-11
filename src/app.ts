@@ -14,13 +14,11 @@ import * as socketio from 'feathers-socketio';
 import * as handler from 'feathers-errors/handler';
 import * as notFound from 'feathers-errors/not-found';
 
-const middleware = require('./middleware');
-const services = require('./services');
-import { appHooks } from './app.hooks';
+import middleware from './middleware';
+import services from './services';
+import appHooks from './app.hooks';
 
-const authentication = require('./authentication');
-const db = require('./sequelize');
-
+import authentication from './authentication';
 
 export const app = feathers();
 
@@ -38,7 +36,6 @@ app.use('/', feathers.static(app.get('public')));
 
 // Set up Plugins and providers
 app.configure(hooks());
-app.configure(db);
 app.configure(rest());
 app.configure(socketio());
 
@@ -47,9 +44,8 @@ app.configure(middleware);
 app.configure(authentication);
 // Set up our services (see `services/index.js`)
 app.configure(services);
-
+// Configure a middleware for 404s and the error handler
 app.use(notFound());
 app.use(handler());
 
 app.hooks(appHooks);
-

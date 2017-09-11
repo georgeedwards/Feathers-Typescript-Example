@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 import * as logger from 'winston';
 import { app } from './app';
+
 const port = app.get('port');
 const server = app.listen(port);
 

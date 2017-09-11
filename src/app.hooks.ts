@@ -1,7 +1,7 @@
 // Application hooks that run for every service
-import { logHook } from './hooks/logger';
+import logger from './hooks/logger';
 
-export const appHooks = {
+export default {
   before: {
     all: [],
     find: [],
@@ -13,7 +13,7 @@ export const appHooks = {
   },
 
   after: {
-    all: [logHook],
+    all: [ logger() ],
     find: [],
     get: [],
     create: [],
@@ -23,7 +23,7 @@ export const appHooks = {
   },
 
   error: {
-    all: [logHook],
+    all: [ logger() ],
     find: [],
     get: [],
     create: [],
