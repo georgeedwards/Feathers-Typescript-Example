@@ -24,8 +24,7 @@
   "scripts": {
     "pretest": "tsc",
     "prestart": "tsc",
-    "test": "npm run eslint && npm run mocha",
-    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "test": "npm run mocha",
     "start": "node src/",
     "mocha": "mocha test/ --recursive"
   },
