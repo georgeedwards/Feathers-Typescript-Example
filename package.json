@@ -52,7 +52,7 @@
     "winston": "^2.3.1"
   },
   "devDependencies": {
-    "@types/mocha": "^2.2.42",
+    "@types/mocha": "^5.2.1",
     "@types/winston": "^2.3.5",
     "eslint": "^4.6.1",
     "mocha": "^3.5.0",
