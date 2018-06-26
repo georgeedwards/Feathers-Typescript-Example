@@ -54,7 +54,7 @@
   "devDependencies": {
     "@types/mocha": "^2.2.42",
     "@types/winston": "^2.3.5",
-    "eslint": "^4.6.1",
+    "eslint": "^5.0.1",
     "mocha": "^3.5.0",
     "request": "^2.81.0",
     "request-promise": "^4.2.1",
