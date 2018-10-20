@@ -358,6 +358,13 @@ cls-bluebird@^2.0.1:
     is-bluebird "^1.0.2"
     shimmer "^1.1.0"
 
+cls-bluebird@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/cls-bluebird/-/cls-bluebird-2.1.0.tgz#37ef1e080a8ffb55c2f4164f536f1919e7968aee"
+  dependencies:
+    is-bluebird "^1.0.2"
+    shimmer "^1.1.0"
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -527,11 +534,23 @@ debug@2.6.8, debug@^2.2.0, debug@^2.3.1, debug@^2.3.2, debug@^2.6.8, debug@~2.6.
   dependencies:
     ms "2.0.0"
 
+debug@^2.6.9:
+  version "2.6.9"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
+  dependencies:
+    ms "2.0.0"
+
 debug@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.0.1.tgz#0564c612b521dc92d9f2988f0549e34f9c98db64"
   dependencies:
     ms "2.0.0"
+
+debug@^3.1.0:
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
+  dependencies:
+    ms "^2.1.1"
 
 deep-is@~0.1.3:
   version "0.1.3"
@@ -1048,6 +1067,10 @@ functional-red-black-tree@^1.0.1:
 generic-pool@^3.1.6:
   version "3.1.7"
   resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-3.1.7.tgz#dac22b2c7a7a04e41732f7d8d2d25a303c88f662"
+
+generic-pool@^3.4.0:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-3.4.2.tgz#92ff7196520d670839a67308092a12aadf2f6a59"
 
 getpass@^0.1.1:
   version "0.1.7"
@@ -1594,6 +1617,12 @@ mocha@^3.5.0:
     mkdirp "0.5.1"
     supports-color "3.1.2"
 
+moment-timezone@^0.5.14:
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.21.tgz#3cba247d84492174dbf71de2a9848fa13207b845"
+  dependencies:
+    moment ">= 2.9.0"
+
 moment-timezone@^0.5.4:
   version "0.5.13"
   resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.13.tgz#99ce5c7d827262eb0f1f702044177f60745d7b90"
@@ -1604,9 +1633,17 @@ moment@2.x.x, "moment@>= 2.9.0", moment@^2.13.0:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
 
+moment@^2.20.0:
+  version "2.22.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
+
 ms@2.0.0, ms@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
+
+ms@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
 
 mute-stream@0.0.7:
   version "0.0.7"
@@ -1899,6 +1936,13 @@ retry-as-promised@^2.0.0:
     bluebird "^3.4.6"
     debug "^2.2.0"
 
+retry-as-promised@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/retry-as-promised/-/retry-as-promised-2.3.2.tgz#cd974ee4fd9b5fe03cbf31871ee48221c07737b7"
+  dependencies:
+    bluebird "^3.4.6"
+    debug "^2.6.9"
+
 rimraf@^2.2.8:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
@@ -1937,6 +1981,10 @@ semver@^5.0.1, semver@^5.3.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 
+semver@^5.5.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
+
 send@0.15.4:
   version "0.15.4"
   resolved "https://registry.yarnpkg.com/send/-/send-0.15.4.tgz#985faa3e284b0273c793364a35c6737bd93905b9"
@@ -1955,7 +2003,7 @@ send@0.15.4:
     range-parser "~1.2.0"
     statuses "~1.3.1"
 
-sequelize@^4.3.1, sequelize@^4.8.0:
+sequelize@^4.3.1:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-4.8.0.tgz#1987a97deceb749da7e25cd27059adb69dbf81c2"
   dependencies:
@@ -1975,6 +2023,28 @@ sequelize@^4.3.1, sequelize@^4.8.0:
     toposort-class "^1.0.1"
     uuid "^3.0.0"
     validator "^8.0.0"
+    wkx "^0.4.1"
+
+sequelize@^4.41.0:
+  version "4.41.0"
+  resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-4.41.0.tgz#fa24ac0471e398090b55b302579240ed58e0b54a"
+  dependencies:
+    bluebird "^3.5.0"
+    cls-bluebird "^2.1.0"
+    debug "^3.1.0"
+    depd "^1.1.0"
+    dottie "^2.0.0"
+    generic-pool "^3.4.0"
+    inflection "1.12.0"
+    lodash "^4.17.1"
+    moment "^2.20.0"
+    moment-timezone "^0.5.14"
+    retry-as-promised "^2.3.2"
+    semver "^5.5.0"
+    terraformer-wkt-parser "^1.1.2"
+    toposort-class "^1.0.1"
+    uuid "^3.2.1"
+    validator "^10.4.0"
     wkx "^0.4.1"
 
 serve-favicon@^2.4.3:
@@ -2284,9 +2354,17 @@ uuid@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
 
+uuid@^3.2.1:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+
 uws@~0.14.4:
   version "0.14.5"
   resolved "https://registry.yarnpkg.com/uws/-/uws-0.14.5.tgz#67aaf33c46b2a587a5f6666d00f7691328f149dc"
+
+validator@^10.4.0:
+  version "10.8.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-10.8.0.tgz#8acb15a5c39411cbc8ef2be0c98c2514da4410a7"
 
 validator@^8.0.0:
   version "8.1.0"
