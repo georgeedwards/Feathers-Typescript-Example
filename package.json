@@ -31,7 +31,7 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "compression": "^1.7.0",
-    "cors": "^2.8.4",
+    "cors": "2.8.4",
     "feathers": "^2.2.0",
     "feathers-authentication": "^1.2.7",
     "feathers-authentication-hooks": "^0.1.4",
