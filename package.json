@@ -43,7 +43,7 @@
     "feathers-hooks-common": "^3.7.2",
     "feathers-memory": "^1.1.0",
     "feathers-rest": "^1.8.0",
-    "feathers-sequelize": "^2.3.1",
+    "feathers-sequelize": "^4.0.2",
     "feathers-socketio": "^2.0.0",
     "helmet": "^3.8.1",
     "sequelize": "^4.8.0",
